@@ -1,25 +1,34 @@
-class work{
-    void see(){
-        System.out.println("i am seen movie");
+class shape {
+    void draw() {
+        System.out.println("drawing...");
     }
 }
-class activity extends work{
-void write(){
-    System.out.println("i am writing storey");
- }
+
+class rectangle extends shape {
+    void draw() {
+        System.out.println("drawinng rectangle");
+    }
 }
-class pent extends activity{
-void draw(){
-    System.out.println("i am drawing picture");
- }
+
+class circle extends shape {
+    void draw() {
+        System.out.println("drawing circle");
+    }
 }
+class triangle extends shape {
+    void draw() {
+        System.out.println("drawing triangle");
+    }
+}
+
 public class Upcasting {
-    public static void main(String[]args){
-        work s = new work ();
-        s.see();
-        activity a= new activity();
-        a.write();
-        pent p = new pent();
-        p.draw();
+    public static void main(String[] args) {
+        shape s;
+        s = new rectangle();
+        s.draw();
+        s = new circle();
+        s.draw();
+        s = new triangle();
+        s.draw();
     }
 }
