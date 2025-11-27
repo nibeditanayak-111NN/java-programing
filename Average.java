@@ -25,3 +25,4 @@ float average= (sum/5) ;
 System.out.println("the average marks of a student is:"+average);
  }
 }
+
