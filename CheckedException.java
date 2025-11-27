@@ -6,3 +6,4 @@ public class CheckedException {
         System.out.println("File opened successfully!");
     }
 }
+
