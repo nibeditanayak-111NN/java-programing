@@ -26,3 +26,4 @@ System.out.println("the average marks of a student is:"+average);
  }
 }
 
+
