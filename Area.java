@@ -8,3 +8,4 @@ public class Area {
         System.out.println("area of square is "+area);
     }
 }
+
